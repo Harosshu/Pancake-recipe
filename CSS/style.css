@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: azure;
+}
+
+.header {
+    font-family: 'Kanit', sans-serif;
+    color: blueviolet;
+    text-align: center;
+}
+
+.ingridients {
+    width: 50%;
+    margin: auto;
+}
+
+.ingridients-table {
+    border: 1px solid grey;
+    margin: auto;
+    width: 50%;
+}
+
+#ingredients-amount {
+    font-size: large;
+    color: rgb(91, 0, 176);
+}
+
+.ingridients-table tr {
+    font-family: 'Kanit', sans-serif;
+    font-size: medium;
+    color: rgb(168, 81, 249);
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin-top: 2rem;
+}
+
+.zoom {
+    padding: 2rem;
+    transition: transform .2s;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); 
+}
+
+.instruction {
+    font-family: 'Kanit', sans-serif;
+    font-size: medium;
+    color: rgb(168, 81, 249);
+    text-align: center;
+}
+
+.header-instruction {
+    font-family: 'Kanit', sans-serif;
+    color: blueviolet;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.footer {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 120);
+    font-size: 1rem;
+    text-align: center;
+}
